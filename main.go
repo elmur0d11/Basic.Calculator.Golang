@@ -13,7 +13,6 @@ func main() {
 	var num2 float64
 	var operator string
 
-	//Get data from user
 	fmt.Println("Enter number 1:")
 	fmt.Scan(&num1)
 	if num1 <= 0{
@@ -31,7 +30,6 @@ func main() {
 	fmt.Print("Enter operation:")
 	fmt.Scan(&operator)
 	
-	//Checking
 	operation(num1, num2, operator)
 }
 
